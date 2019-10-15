@@ -1,0 +1,21 @@
+{
+  "name": "Pedro Framework PHP",
+  "description": "Simple Framework for Beginners",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Alex Gomes",
+      "email": "contato@alexwebmaster.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {"system\\": "core/"}
+  }
+}
